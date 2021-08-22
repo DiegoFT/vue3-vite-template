@@ -1,14 +1,10 @@
 <template>
-  <div>
-    Axios.vue
-  </div>
+  <div>Axios.vue</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-  setup() {
-
-  },
+  setup() {},
 })
 </script>

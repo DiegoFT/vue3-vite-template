@@ -1,14 +1,10 @@
 <template>
-  <div>
-    vuex.vue
-  </div>
+  <div>vuex.vue</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-  setup() {
-
-  },
+  setup() {},
 })
 </script>
