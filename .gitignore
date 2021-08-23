@@ -5,3 +5,4 @@ dist-ssr
 *.local
 coverage
 .idea
+tests/e2e/screenshots
