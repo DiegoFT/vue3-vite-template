@@ -9,6 +9,7 @@ module.exports = {
     'airbnb-base',
     'plugin:prettier/recommended',
     'plugin:jest/recommended',
+    'plugin:cypress/recommended',
   ],
   parserOptions: {
     ecmaVersion: 12,
