@@ -4,6 +4,17 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   extends: [
     'plugin:vue/essential',
     'airbnb-base',
@@ -19,5 +30,15 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     quotes: [2, 'single'],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
   },
 }
